@@ -1,0 +1,131 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  @media(max-width: 695px) {
+    height: 120vh;
+  }
+
+  .images {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -10;
+
+    img {
+      width: 25%;
+      height: auto;
+
+      @media(max-width: 695px) {
+        width: 40%;
+
+        &:last-child {
+          position: relative;
+          top: 100px;
+        }
+      }
+
+      @media(max-width: 500px) {
+        width: 50%;
+      }
+    }
+
+    @media(max-width: 695px) {
+      position: static;
+      height: auto;
+    }
+  }
+
+  .content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @media(max-width: 695px) {
+      margin-bottom: -130px;
+    }
+
+    h3 {
+      font-family: var(--sugarpunch);
+      font-size: 40px;
+
+      @media(max-width: 980px) {
+        font-size: 20px;
+      }
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-family: var(--organic-relief);
+      font-size: 50px;
+
+      @media(max-width: 980px) {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 30px;
+      border-radius: 10px;
+      border: 0;
+      margin-top: 20px;
+      font-weight: 600;
+      font-family: var(--inter);
+    }
+
+    .social_links {
+      margin-top: 20px;
+
+      a {
+        svg {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .bottom {
+      width: fit-content;
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      cursor: pointer;
+
+      div {
+        position: relative;
+      }
+
+      &:hover {
+        div {
+          &:first-child {
+            bottom: 10px;
+          }
+
+          &:last-child {
+            top: 10px;
+          }
+        }
+      }
+
+      @media(max-width: 695px) {
+        display: none;
+      }
+    }
+  }
+}

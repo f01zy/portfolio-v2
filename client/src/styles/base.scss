@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background: var(--bg);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  background: var(--color);
+  color: var(--button-color);
+}
+
+svg {
+  path {
+    fill: var(--color);
+  }
+}

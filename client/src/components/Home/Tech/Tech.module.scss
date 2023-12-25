@@ -1,0 +1,88 @@
+.tech {
+  position: relative;
+  margin-top: 150px;
+  padding: 0 8vw;
+  font-family: var(--roboto-slab);
+
+  h2 {
+    font-size: 40px;
+
+    @media(max-width: 650px) {
+      font-size: 24px;
+    }
+  }
+
+  h1 {
+    font-size: 200px;
+    margin-top: -40px;
+    font-weight: 900;
+
+    @media(max-width: 650px) {
+      font-size: 120px;
+      margin-top: -20px;
+    }
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 20px;
+    width: 40vw;
+    margin-bottom: 70px;
+  }
+
+  .tech_category {
+    &:not(:last-child) {
+      margin-bottom: 50px;
+    }
+
+    .tag {
+      margin-bottom: 30px;
+      border-radius: 3px;
+      padding-left: 5px;
+      background: var(--color);
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      position: relative;
+
+      h4 {
+        font-family: var(--inter);
+        font-size: 20px;
+        color: var(--button-color);
+        padding: 4px 5px;
+      }
+
+      svg {
+        position: absolute;
+        right: -23px;
+      }
+
+      @media(max-width: 650px) {
+        margin-bottom: 50px;
+      }
+    }
+
+    .items {
+      display: grid;
+      grid-template-columns: repeat(2, 300px);
+
+      .tech_item {
+        display: flex;
+
+        .text {
+          margin-left: 10px;
+
+          p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.55);
+            font-weight: 400;
+          }
+        }
+      }
+
+      @media(max-width: 650px) {
+        display: block;
+      }
+    }
+  }
+}

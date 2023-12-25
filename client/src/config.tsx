@@ -105,4 +105,4 @@ export const techs = [
 
 export const tags = ["View all", "Discussion", "Next js", "Nest js", "React", "Web", "Programming", "Html", "Hack", "Css"]
 
-export const API_URL = "http://localhost:5000"
+export const API_URL = "https://folzy-website-server.vercel.app"

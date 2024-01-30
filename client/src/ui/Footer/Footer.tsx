@@ -26,7 +26,7 @@ const Footer = () => {
           {social_links.map((el, index) => (
             <Link href={el.href} key={index}>{el.svg}</Link>
           ))}
-          <button>Contact</button>
+          <Link href="/#contact"><button>Contact</button></Link>
         </div>
         <div className={styles.language}>
           <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

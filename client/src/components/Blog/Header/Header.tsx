@@ -5,11 +5,21 @@ import { tags } from "@/config";
 import { useState } from "react"
 import Post from "../Post/Post";
 import { useTypedSelector } from "@/hooks/selector.hook";
+import { IPost } from "@/interfaces/post.interface";
 
 const Header = () => {
   const [tag, setTag] = useState<string>("View_all")
   const posts = useTypedSelector(state => state.postsSlice.entities)
+  const [filters, setFilters] = useState<Array<IPost>>(posts)
   const status = useTypedSelector(state => state.postsSlice.status)
+
+  const filter = (tag: string) => {
+    setTag(tag)
+
+    if (tag === "View all") return setFilters(posts)
+
+    setFilters(posts.filter(post => post.tags.indexOf(tag) !== -1))
+  }
 
   return <header className={styles.header}>
     <h1>Blog</h1>
@@ -19,7 +29,7 @@ const Header = () => {
           {el == tag && (
             <div className={styles.glare}></div>
           )}
-          <button onClick={() => setTag(el)}>{el}</button>
+          <button onClick={() => filter(el)}>{el}</button>
         </div>
       ))}
     </div>
@@ -29,7 +39,7 @@ const Header = () => {
       </div>
     ) : (
       <div className={styles.posts}>
-        {posts.map((el, index) => (
+        {filters.map((el, index) => (
           <Post key={index} date={el.date} tags={el.tags} title={el.title} _id={el._id} />
         ))}
       </div>

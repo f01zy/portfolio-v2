@@ -47,9 +47,6 @@ const Create = () => {
 
   const onSubmit: SubmitHandler<ICreate> = async data => {
     if (data.secret != "Ali02022010") return console.log("Error");
-    console.log(selects);
-    console.log(value);
-    console.log(data);
     const tags: Array<string> = []
     selects.map(el => tags.push(el.value))
 

@@ -10,7 +10,7 @@ const Header = () => {
         <h3>Hi, i'm</h3>
         <h1>Aminov Ali</h1>
         <p>Web developer</p>
-        <button>Contact</button>
+        <Link href={"/#contact"}><button>Contact</button></Link>
         <div className={styles.social_links}>
           {social_links.map((el, index) => (
             <Link href={el.href} key={index}>{el.svg}</Link>

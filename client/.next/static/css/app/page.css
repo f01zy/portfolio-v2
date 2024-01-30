@@ -1,0 +1,455 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Contact/Contact.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Contact_contact__TIqpD {
+  height: 50vh;
+  position: relative;
+  margin-top: 100px;
+}
+@media (max-width: 550px) {
+  .Contact_contact__TIqpD {
+    height: 60vh;
+    overflow: hidden;
+  }
+}
+.Contact_contact__TIqpD .Contact_images__iSeWF {
+  z-index: -10;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.Contact_contact__TIqpD .Contact_images__iSeWF img:first-child {
+  position: relative;
+  left: -10px;
+  width: 800px;
+  height: auto;
+}
+@media (max-width: 550px) {
+  .Contact_contact__TIqpD .Contact_images__iSeWF img:first-child {
+    bottom: -200px;
+  }
+}
+.Contact_contact__TIqpD .Contact_images__iSeWF img:last-child {
+  position: absolute;
+  top: -200px;
+  right: 0;
+  width: 300px;
+  height: auto;
+}
+@media (max-width: 1000px) {
+  .Contact_contact__TIqpD .Contact_images__iSeWF img:last-child {
+    display: none;
+  }
+}
+.Contact_contact__TIqpD form {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 8vw;
+}
+.Contact_contact__TIqpD form h1 {
+  font-family: var(--organic-relief);
+  color: white;
+  mix-blend-mode: difference;
+}
+.Contact_contact__TIqpD form .Contact_input__nnxXt {
+  width: 60%;
+  height: 40px;
+  position: relative;
+  margin-top: 50px;
+}
+@media (max-width: 580px) {
+  .Contact_contact__TIqpD form .Contact_input__nnxXt {
+    width: 90%;
+  }
+}
+.Contact_contact__TIqpD form .Contact_input__nnxXt input {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 0 10px;
+  font-family: var(--roboto-slab);
+}
+.Contact_contact__TIqpD form .Contact_input__nnxXt button {
+  position: absolute;
+  right: 15px;
+  padding: 0 30px;
+  height: calc(100% - 10px);
+  top: 5px;
+  border: 0;
+  border-radius: 25px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Header/Header.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__Km4Oy {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+@media (max-width: 695px) {
+  .Header_header__Km4Oy {
+    height: 120vh;
+  }
+}
+.Header_header__Km4Oy .Header_images__JuVYY {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: -10;
+}
+.Header_header__Km4Oy .Header_images__JuVYY img {
+  width: 25%;
+  height: auto;
+}
+@media (max-width: 695px) {
+  .Header_header__Km4Oy .Header_images__JuVYY img {
+    width: 40%;
+  }
+  .Header_header__Km4Oy .Header_images__JuVYY img:last-child {
+    position: relative;
+    top: 100px;
+  }
+}
+@media (max-width: 500px) {
+  .Header_header__Km4Oy .Header_images__JuVYY img {
+    width: 50%;
+  }
+}
+@media (max-width: 695px) {
+  .Header_header__Km4Oy .Header_images__JuVYY {
+    position: static;
+    height: auto;
+  }
+}
+.Header_header__Km4Oy .Header_content__9A6b5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+@media (max-width: 695px) {
+  .Header_header__Km4Oy .Header_content__9A6b5 {
+    margin-bottom: -130px;
+  }
+}
+.Header_header__Km4Oy .Header_content__9A6b5 h3 {
+  font-family: var(--sugarpunch);
+  font-size: 40px;
+}
+@media (max-width: 980px) {
+  .Header_header__Km4Oy .Header_content__9A6b5 h3 {
+    font-size: 20px;
+  }
+}
+.Header_header__Km4Oy .Header_content__9A6b5 h1 {
+  text-transform: uppercase;
+  font-family: var(--organic-relief);
+  font-size: 50px;
+}
+@media (max-width: 980px) {
+  .Header_header__Km4Oy .Header_content__9A6b5 h1 {
+    font-size: 30px;
+  }
+}
+.Header_header__Km4Oy .Header_content__9A6b5 p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Header_header__Km4Oy .Header_content__9A6b5 button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: var(--inter);
+}
+.Header_header__Km4Oy .Header_content__9A6b5 .Header_social_links__sI3rR {
+  margin-top: 20px;
+}
+.Header_header__Km4Oy .Header_content__9A6b5 .Header_social_links__sI3rR a svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Header_header__Km4Oy .Header_content__9A6b5 .Header_bottom__WatgY {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.Header_header__Km4Oy .Header_content__9A6b5 .Header_bottom__WatgY div {
+  position: relative;
+}
+.Header_header__Km4Oy .Header_content__9A6b5 .Header_bottom__WatgY:hover div:first-child {
+  bottom: 10px;
+}
+.Header_header__Km4Oy .Header_content__9A6b5 .Header_bottom__WatgY:hover div:last-child {
+  top: 10px;
+}
+@media (max-width: 695px) {
+  .Header_header__Km4Oy .Header_content__9A6b5 .Header_bottom__WatgY {
+    display: none;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Projects/Projects.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Projects_projects__OQZiL {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.Projects_projects__OQZiL h1 {
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  font-family: var(--roboto-slab);
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 {
+  width: 100%;
+  position: relative;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  position: relative;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(52, 98, 89, 0.65) 0%, rgba(52, 98, 89, 0.25) 57.29%, rgba(52, 98, 89, 0) 100%);
+  padding: 40px 40px;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 .Projects_status__7R87R {
+  display: flex;
+  align-items: center;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 .Projects_status__7R87R p {
+  margin-left: 5px;
+  font-family: var(--inter);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 h2 {
+  margin-top: 10px;
+  font-family: var(--roboto-slab);
+  font-size: 70px;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 p {
+  font-family: var(--roboto-slab);
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 button {
+  background: #346259;
+  border-radius: 15px;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  margin-top: 30px;
+}
+@media (max-width: 800px) {
+  .Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: none;
+  }
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_image__07Nr5 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_image__07Nr5 img {
+  height: 100%;
+  width: auto;
+}
+@media (max-width: 800px) {
+  .Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_image__07Nr5 {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Tech/Tech.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Tech_tech__LO_9m {
+  position: relative;
+  margin-top: 150px;
+  padding: 0 8vw;
+  font-family: var(--roboto-slab);
+}
+.Tech_tech__LO_9m h2 {
+  font-size: 40px;
+}
+@media (max-width: 650px) {
+  .Tech_tech__LO_9m h2 {
+    font-size: 24px;
+  }
+}
+.Tech_tech__LO_9m h1 {
+  font-size: 200px;
+  margin-top: -40px;
+  font-weight: 900;
+}
+@media (max-width: 650px) {
+  .Tech_tech__LO_9m h1 {
+    font-size: 120px;
+    margin-top: -20px;
+  }
+}
+.Tech_tech__LO_9m p {
+  font-weight: 700;
+  font-size: 20px;
+  width: 40vw;
+  margin-bottom: 70px;
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW:not(:last-child) {
+  margin-bottom: 50px;
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_tag__lFTQs {
+  margin-bottom: 30px;
+  border-radius: 3px;
+  padding-left: 5px;
+  background: var(--color);
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  position: relative;
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_tag__lFTQs h4 {
+  font-family: var(--inter);
+  font-size: 20px;
+  color: var(--button-color);
+  padding: 4px 5px;
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_tag__lFTQs svg {
+  position: absolute;
+  right: -23px;
+}
+@media (max-width: 650px) {
+  .Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_tag__lFTQs {
+    margin-bottom: 50px;
+  }
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_items__XwizH {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_items__XwizH .Tech_tech_item___cV_y {
+  display: flex;
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_items__XwizH .Tech_tech_item___cV_y .Tech_text__qOHz_ {
+  margin-left: 10px;
+}
+.Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_items__XwizH .Tech_tech_item___cV_y .Tech_text__qOHz_ p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 400;
+}
+@media (max-width: 650px) {
+  .Tech_tech__LO_9m .Tech_tech_category__UUZMW .Tech_items__XwizH {
+    display: block;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Technologies/Technologies.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Technologies_technologies__kRWr_ {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--inter);
+}
+.Technologies_technologies__kRWr_ h4 {
+  margin-bottom: 70px;
+  font-size: 24px;
+}
+@media (max-width: 800px) {
+  .Technologies_technologies__kRWr_ h4 {
+    text-align: center;
+  }
+}
+.Technologies_technologies__kRWr_ .Technologies_lists__Ltlu_ {
+  font-family: var(--roboto);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10vw;
+}
+.Technologies_technologies__kRWr_ .Technologies_lists__Ltlu_ ul {
+  position: relative;
+}
+.Technologies_technologies__kRWr_ .Technologies_lists__Ltlu_ ul h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Technologies_technologies__kRWr_ .Technologies_lists__Ltlu_ ul li {
+  margin-bottom: 5px;
+}
+@media (max-width: 800px) {
+  .Technologies_technologies__kRWr_ .Technologies_lists__Ltlu_ ul:not(:first-child) {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .Technologies_technologies__kRWr_ .Technologies_lists__Ltlu_ {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.Technologies_technologies__kRWr_ button {
+  display: flex;
+  align-items: center;
+  font-family: var(--inter);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 20px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 30px;
+}
+.Technologies_technologies__kRWr_ button img {
+  margin-right: 20px;
+}
+@media (max-width: 800px) {
+  .Technologies_technologies__kRWr_ button {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .Technologies_technologies__kRWr_ {
+    padding: 0 4vw;
+  }
+}

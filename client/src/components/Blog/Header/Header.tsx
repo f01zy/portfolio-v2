@@ -8,7 +8,7 @@ import { useTypedSelector } from "@/hooks/selector.hook";
 import { IPost } from "@/interfaces/post.interface";
 
 const Header = () => {
-  const [tag, setTag] = useState<string>("View_all")
+  const [tag, setTag] = useState<string>("View all")
   const posts = useTypedSelector(state => state.postsSlice.entities)
   const [filters, setFilters] = useState<Array<IPost>>(posts)
   const status = useTypedSelector(state => state.postsSlice.status)

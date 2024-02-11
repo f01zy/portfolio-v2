@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+  height: 350px;
+  position: relative;
+
+  @media(max-width: 800px) {
+    height: auto;
+  }
 
   h1 {
     border-bottom: 1px solid #fafafa;
@@ -11,85 +17,54 @@
     font-family: var(--roboto-slab);
   }
 
-  .slides {
+  .buttons {
     width: 100%;
-    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    .slide {
-      width: 100%;
-      height: 350px;
+    @media(max-width: 800px) {
+      display: none;
+    }
+
+    .button {
+      width: 50px;
+      height: 50px;
+      background: #ffffff;
+      z-index: 10;
+      margin-top: 100px;
+      margin-left: 30px;
+      margin-right: 30px;
+      border-radius: 100%;
       display: flex;
-      position: relative;
+      align-items: center;
+      justify-content: center;
 
-      .slide_info {
-        width: 50%;
-        height: 100%;
-        background: linear-gradient(90deg, rgba(52, 98, 89, 0.65) 0%, rgba(52, 98, 89, 0.25) 57.29%, rgba(52, 98, 89, 0.00) 100%);
-        padding: 40px 40px;
-
-        .status {
-          display: flex;
-          align-items: center;
-
-          p {
-            margin-left: 5px;
-            font-family: var(--inter);
-            text-transform: uppercase;
-            font-weight: 700;
-          }
-        }
-
-        h2 {
-          margin-top: 10px;
-          font-family: var(--roboto-slab);
-          font-size: 70px;
-        }
-
-        p {
-          font-family: var(--roboto-slab);
-        }
-
-        button {
-          background: #346259;
-          border-radius: 15px;
-          color: #fff;
-          padding: 10px 30px;
-          border: 0;
-          margin-top: 30px;
-        }
-
-        @media(max-width: 800px) {
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          background: none;
-        }
-      }
-
-      .slide_image {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-          height: 100%;
-          width: auto;
-        }
-
-        @media(max-width: 800px) {
-          width: 100%;
-        }
-      }
-
-      @media(max-width: 800px) {
-        flex-direction: column;
-        align-items: center;
+      svg {
+        width: 30px;
         height: auto;
+
+        * {
+          fill: #000;
+        }
       }
+    }
+  }
+
+  .slides {
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    transition: all .3s ease;
+
+    @media(max-width: 800px) {
+      width: 100%;
+      display: block;
+      position: relative;
+      margin-top: 0;
     }
   }
 }

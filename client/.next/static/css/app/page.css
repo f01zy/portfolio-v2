@@ -82,6 +82,8 @@
   top: 5px;
   border: 0;
   border-radius: 25px;
+  background: #000;
+  color: #fafafa;
 }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Header/Header.module.scss ***!
@@ -206,65 +208,68 @@
     display: none;
   }
 }
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Projects/Projects.module.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.Projects_projects__OQZiL {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 150px;
-}
-.Projects_projects__OQZiL h1 {
-  border-bottom: 1px solid #fafafa;
-  padding-bottom: 10px;
-  margin-bottom: 40px;
-  font-family: var(--roboto-slab);
-}
-.Projects_projects__OQZiL .Projects_slides__9O3w4 {
-  width: 100%;
-  position: relative;
-}
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 {
-  width: 100%;
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Projects/Project/Project.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Project_slide__lcUtB {
   height: 350px;
   display: flex;
+  overflow: hidden;
   position: relative;
+  justify-content: space-between;
+  padding-right: 20px;
+  width: 100%;
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 {
+@media (max-width: 800px) {
+  .Project_slide__lcUtB {
+    height: auto;
+    width: auto;
+    padding-right: 0;
+  }
+  .Project_slide__lcUtB:not(:first-child) {
+    margin-top: 100px;
+  }
+}
+.Project_slide__lcUtB .Project_slide_info__U7p2T {
   width: 50%;
   height: 100%;
   background: linear-gradient(90deg, rgba(52, 98, 89, 0.65) 0%, rgba(52, 98, 89, 0.25) 57.29%, rgba(52, 98, 89, 0) 100%);
   padding: 40px 40px;
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 .Projects_status__7R87R {
+.Project_slide__lcUtB .Project_slide_info__U7p2T .Project_status__PJJ6P {
   display: flex;
   align-items: center;
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 .Projects_status__7R87R p {
+.Project_slide__lcUtB .Project_slide_info__U7p2T .Project_status__PJJ6P p {
   margin-left: 5px;
   font-family: var(--inter);
   text-transform: uppercase;
   font-weight: 700;
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 h2 {
+.Project_slide__lcUtB .Project_slide_info__U7p2T h2 {
   margin-top: 10px;
   font-family: var(--roboto-slab);
   font-size: 70px;
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 p {
+.Project_slide__lcUtB .Project_slide_info__U7p2T p {
   font-family: var(--roboto-slab);
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 button {
+@media (max-width: 800px) {
+  .Project_slide__lcUtB .Project_slide_info__U7p2T p.Project_pg__6EsMC {
+    width: 70vw;
+  }
+}
+.Project_slide__lcUtB .Project_slide_info__U7p2T button {
   background: #346259;
   border-radius: 15px;
   color: #fff;
   padding: 10px 30px;
   border: 0;
   margin-top: 30px;
+  cursor: pointer;
 }
 @media (max-width: 800px) {
-  .Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_info__t9lF1 {
+  .Project_slide__lcUtB .Project_slide_info__U7p2T {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -273,27 +278,96 @@
     background: none;
   }
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_image__07Nr5 {
-  width: 50%;
-  height: 100%;
+.Project_slide__lcUtB .Project_slide_image__qNTQN {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_image__07Nr5 img {
-  height: 100%;
+.Project_slide__lcUtB .Project_slide_image__qNTQN img {
+  height: 80%;
   width: auto;
 }
 @media (max-width: 800px) {
-  .Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 .Projects_slide_image__07Nr5 {
-    width: 100%;
+  .Project_slide__lcUtB .Project_slide_image__qNTQN img {
+    height: auto;
+    width: 70vw;
   }
 }
 @media (max-width: 800px) {
-  .Projects_projects__OQZiL .Projects_slides__9O3w4 .Projects_slide__QuZS4 {
+  .Project_slide__lcUtB {
     flex-direction: column;
     align-items: center;
     height: auto;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./src/components/Home/Projects/Projects.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Projects_projects__OQZiL {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  height: 350px;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .Projects_projects__OQZiL {
+    height: auto;
+  }
+}
+.Projects_projects__OQZiL h1 {
+  border-bottom: 1px solid #fafafa;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  font-family: var(--roboto-slab);
+}
+.Projects_projects__OQZiL .Projects_buttons__P4KRV {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .Projects_projects__OQZiL .Projects_buttons__P4KRV {
+    display: none;
+  }
+}
+.Projects_projects__OQZiL .Projects_buttons__P4KRV .Projects_button__oyOJU {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Projects_projects__OQZiL .Projects_buttons__P4KRV .Projects_button__oyOJU svg {
+  width: 30px;
+  height: auto;
+}
+.Projects_projects__OQZiL .Projects_buttons__P4KRV .Projects_button__oyOJU svg * {
+  fill: #000;
+}
+.Projects_projects__OQZiL .Projects_slides__9O3w4 {
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+@media (max-width: 800px) {
+  .Projects_projects__OQZiL .Projects_slides__9O3w4 {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 0;
   }
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\

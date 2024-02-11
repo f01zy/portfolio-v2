@@ -1,8 +1,11 @@
 import Image from "next/image";
 import styles from "@/components/Home/Tech/Tech.module.scss"
 import { techs } from "@/config"
+import { useTypedSelector } from "@/hooks/selector.hook";
 
 const Tech = () => {
+  const { theme } = useTypedSelector(selector => selector.settingsSlice)
+
   return <div>
     <div className={styles.tech} id="tech">
       <h2>and finally,</h2>
@@ -20,7 +23,7 @@ const Tech = () => {
             <div className={styles.items}>
               {el.techs.map((el, index) => (
                 <div className={styles.tech_item} key={index}>
-                  <Image src={`/techs/${el.name.toLowerCase()}.png`} alt={el.name} width={80} height={80} />
+                  <Image src={`/techs/${el.name.toLowerCase()}${theme === "ligth" ? "_black" : ""}.png`} alt={el.name} width={80} height={80} />
                   <div className={styles.text}>
                     <h3>{el.name}</h3>
                     <p>{el.time}<br />experience</p>
